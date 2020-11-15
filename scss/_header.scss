@@ -1,0 +1,24 @@
+.header {
+	.logo {
+		font-family: 'Roboto',
+			sans-serif;
+		font-weight: 700;
+		color: #faee1c;
+		font-size: 3rem;
+		display: flex;
+		align-items: flex-end;
+		line-height: 45px;
+		transform: scaleY(1.2);
+	}
+
+	.my-nav {
+		li:not(:last-child) {
+			margin-right: 3rem;
+		}
+
+		li a {
+			font-family: 'Roboto',
+				sans-serif;
+		}
+	}
+}

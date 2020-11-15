@@ -1,0 +1,16 @@
+.hero {
+	height: 100vh;
+
+	background: {
+		color: #EBE5E9;
+		image: url(../img/home-banner.jpg);
+		position: center;
+		repeat: no-repeat;
+		size: cover;
+	}
+
+	button {
+		font-size: 0.8rem !important;
+	}
+
+}
