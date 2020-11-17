@@ -1,0 +1,15 @@
+.title-box {
+	h1 {
+		font-size: 3rem;
+		text-transform: capitalize;
+		color: $color-blue;
+		letter-spacing: 2px;
+		margin-bottom: 1rem;
+	}
+
+	span {
+		font-style: italic;
+		font-size: 1.7rem;
+		color: #333333;
+	}
+}
