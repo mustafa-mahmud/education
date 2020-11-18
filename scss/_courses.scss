@@ -1,0 +1,20 @@
+.courses {
+	background-color: #F8F9FA;
+
+	.fa {
+		color: #000000 !important;
+		font-size: 1rem;
+	}
+
+	.card {
+		overflow: hidden;
+
+		img {
+			transition: all 0.3s ease-in-out;
+		}
+
+		&:hover img {
+			transform: scale(1.1);
+		}
+	}
+}

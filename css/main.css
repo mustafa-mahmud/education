@@ -110,3 +110,28 @@
 .hero button {
   font-size: 0.8rem !important;
 }
+
+.courses {
+  background-color: #F8F9FA;
+}
+
+.courses .fa {
+  color: #000000 !important;
+  font-size: 1rem;
+}
+
+.courses .card {
+  overflow: hidden;
+}
+
+.courses .card img {
+  transition: all 0.3s ease-in-out;
+}
+
+.courses .card:hover img {
+  transform: scale(1.1);
+}
+
+.register {
+  background-color: #002347;
+}
