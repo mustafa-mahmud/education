@@ -76,7 +76,22 @@
 
 .para {
   line-height: 30px !important;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.title--blue {
+  color: #002347 !important;
+}
+
+.title--white {
+  color: #fff !important;
 }
 
 .header .logo {
@@ -134,4 +149,8 @@
 
 .register {
   background-color: #002347;
+}
+
+.register p {
+  color: #fff;
 }
