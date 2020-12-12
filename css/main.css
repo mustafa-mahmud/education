@@ -319,3 +319,25 @@
 .events__info div p:last-child span {
   display: block;
 }
+
+.about .item {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  grid-template-rows: min-content min-content;
+  gap: 0rem 2rem;
+}
+
+.about .item img {
+  grid-column: 1/2;
+  grid-row: 1/-1;
+}
+
+.about .item h5 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.about .item p {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
